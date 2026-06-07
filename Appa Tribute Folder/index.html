@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To The Man Behind The Uniform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 🎵 MUSIC -->
+<audio id="bgmusic" loop>
+    <source src="music/anandha-yaazhai.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 🎵 BUTTON -->
+<button onclick="toggleMusic()">🎵 Play / Pause</button>
+
+<!-- 🌐 LANGUAGE SWITCH -->
+<div class="language-switch">
+    <button onclick="setEnglish()">English</button>
+    <button onclick="setTamil()">தமிழ்</button>
+</div>
+
+<div class="container">
+
+    <!-- 🏷️ TITLE -->
+    <h1>
+        <span class="en">To The Man Behind The Uniform</span>
+        <span class="ta" style="display:none;"> உடையினுள் இருக்கும் மனிதருக்கு அர்ப்பணிப்பு.</span>
+    </h1>
+
+    <!-- 📝 SUBTITLE -->
+    <p class="subtitle">
+
+        <span class="en">
+            Dedicated to Manimaran P. — a police officer, a son,
+            a husband, and above all, our Appa.
+        </span>
+
+        <span class="ta" style="display:none;">
+            <span class="ta" style="display:none;">
+   
+
+    மணிமாறன் P அவர்களுக்கு — ஒரு காவலர், ஒரு மகன்,<br>
+    ஒரு கணவர், மற்றும் அதைவிட மேலாக, எங்கள் அப்பா.<br><br>
+
+    இந்த இணையதளம் வெறும் பக்கங்கள் அல்ல...<br>
+    இது உங்கள் மகளின் மனமார்ந்த அன்பும் நன்றியும் ❤️
+</span>
+        </span>
+
+    </p>
+
+    <!-- 🔐 PASSCODE BOX -->
+    <div class="passcode-box">
+
+        <h2>
+            <span class="en">Welcome, Appa</span>
+            <span class="ta" style="display:none;">வரவேற்பு அப்பா</span>
+        </h2>
+
+        <input type="password" id="passcode"
+               placeholder="Enter Passcode">
+
+        <button onclick="checkPasscode()">
+            <span class="en">Unlock</span>
+            <span class="ta" style="display:none;">திறக்கவும்</span>
+        </button>
+
+        <p id="message"></p>
+
+    </div>
+
+</div>
+
+<!-- ⚙️ JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Appa</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- 🎵 Music -->
+<audio id="bgmusic" loop>
+    <source src="../music/anandha-yaazhai.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+
+    <!-- 🌐 Language Switch -->
+    <div class="language-switch">
+        <button onclick="setEnglish()">English</button>
+        <button onclick="setTamil()">தமிழ்</button>
+    </div>
+
+    <!-- 🏷️ Title -->
+    <h1>
+        <span class="en">Welcome Appa ❤️</span>
+        <span class="ta" style="display:none;">வரவேற்பு அப்பா ❤️</span>
+    </h1>
+
+    <!-- 📝 Content -->
+    <p class="subtitle">
+
+        <span class="en">
+            This is not just a website.<br>
+            This is a small tribute from your daughter.
+        </span>
+
+        <span class="ta" style="display:none;">
+            இது வெறும் ஒரு இணையதளம் அல்ல.<br>
+            இது உங்கள் மகளின் சிறிய அன்பு அஞ்சலி ❤️
+        </span>
+
+    </p>
+
+    <!-- 🔘 Button -->
+    <button onclick="location.href='before-uniform.html'">
+
+        <span class="en">Begin Journey →</span>
+        <span class="ta" style="display:none;">பயணத்தை தொடங்குங்கள் →</span>
+
+    </button>
+
+</div>
+
+<!-- ⚙️ JS -->
+<script src="../js/script.js"></script>
+
+</body>
+</html>

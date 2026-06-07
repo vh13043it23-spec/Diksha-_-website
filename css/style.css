@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("../Photos/Welcome/welcome.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+.container{
+    text-align:center;
+    max-width:900px;
+    padding:30px;
+}
+
+h1{
+    color:gold;
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+.passcode-box{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+
+    padding:30px;
+    border-radius:20px;
+
+    display:inline-block;
+}
+
+.passcode-box h2{
+    margin-bottom:20px;
+}
+
+input{
+    width:250px;
+    padding:12px;
+
+    border:none;
+    border-radius:10px;
+
+    margin-bottom:15px;
+    font-size:16px;
+}
+
+button{
+    padding:12px 25px;
+
+    border:none;
+    border-radius:10px;
+
+    background:gold;
+    color:black;
+
+    font-size:16px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+.language-switch{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+.language-switch button{
+    margin-left:10px;
+}
+.page-photo{
+    width:300px;
+    max-width:90%;
+    border-radius:15px;
+    margin:20px 0;
+}
+.photo-gallery{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:20px 0;
+}
+
+.page-photo{
+    width:800px;
+    max-width:90%;
+    border-radius:15px;
+}
+.photo-gallery{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:20px 0;
+}
+
+.page-photo{
+    width:300px;
+    max-width:90%;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.page-photo:hover{
+    transform:scale(1.05);
+}
+
+.container{
+    text-align:center;
+    max-width:500px;
+    padding:30px;
+
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+}
+
+.subtitle{
+    line-height:1.8;
+    font-size:1.1rem;
+    margin-top:20px;
+}
+.container{
+    animation: fade 0.8s ease-in;
+}
+
+@keyframes fade{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+.language-switch{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+.language-switch button{
+    margin-left: 5px;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
